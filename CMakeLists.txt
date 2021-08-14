@@ -203,8 +203,10 @@ ExternalProject_Add_Step(sdk force_build
 include(FindPkgConfig)
 
 set(APP_DEPENDS sdk)
-find_package(Qt5 5.9 COMPONENTS Core REQUIRED)
 
+# Find QT5
+set (CMAKE_PREFIX_PATH $ENV{QT_PATH})
+find_package(Qt5 COMPONENTS Core REQUIRED)
 if ( NOT Qt5_FOUND )
 	message(FATAL_ERROR "Minimum supported Qt5 version is 5.9!")
 endif()
