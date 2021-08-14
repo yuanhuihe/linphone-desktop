@@ -61,7 +61,7 @@ Note: If you have `qtchooser` set in your `PATH`, the best use is :
 
 ### Summary of Building steps
 
-        `git clone https://gitlab.linphone.org/BC/public/linphone-desktop.git --recursive`
+        `git clone https://github.com/yuanhuihe/linphone-desktop.git --recursive`
         `cd linphone-desktop`
         `mkdir build`
         `cd build`
@@ -73,7 +73,7 @@ Note: If you have `qtchooser` set in your `PATH`, the best use is :
 
 1. Clone repository:
 
-        git clone https://gitlab.linphone.org/BC/public/linphone-desktop.git --recursive        
+        git clone https://github.com/yuanhuihe/linphone-desktop.git --recursive        
 
 2. Update sub-modules
 
